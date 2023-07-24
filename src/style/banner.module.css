@@ -1,24 +1,24 @@
-.secBanner{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.secBanner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-.divBanner{
-    display: flex;
+.divBanner {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+  gap: 1em;
+}
+
+@media (max-width: 400px) {
+  .secBanner {
     flex-direction: column;
-    width: 46%;
-    gap: 1em;
-}
-
-@media(max-width: 400px){
-    .secBanner{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 3em;
-    }
-    .divBanner{
-        width: 75%;
-    }
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+  }
+  .divBanner {
+    width: 75%;
+  }
 }
